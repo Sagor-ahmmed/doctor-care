@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- .....taliwind css...... -->
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-[DCE9E2] font-serif ">
+    <header class="bg-blend-hard-light bg-green-100 fixed top-0 left-0 right-0">
+        <nav
+            class="container mx-auto w-3/4 flex flex-col gap-4 md:flex-row md:justify-between p-2 text-xl transition-all 0.5s">
+            <div class="flex justify-between">
+                <!-- nav-log -->
+                <a href="/">Doctor <span class='text-2xl font-bold text-red-500 '>C</span>are</a>
+                <!-- nav-menu -->
+
+                <button class="md:hidden " id="navMenu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-8 text-shadow-white">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                    </svg>
+
+                </button>
+            </div>
+            <!-- menu items -->
+            <div class="text-center md:space-x-4 space-y-2 md:space-y-0 hidden md:block " id="menuItems">
+                <!-- menu -->
+                <a href="#home" class="block md:inline text-green-400 hover:text-black text-center">Home</a>
+                <a href="#contact" class="block md:inline text-green-400 hover:text-black  text-center">Contact</a>
+                <a href="#about" class="block md:inline text-green-400 hover:text-black  text-center">About</a>
+            </div>
+            <!-- round text -->
+            <div class="text-center hidden md:block " id="menu">
+                <button class="rounded-full border border-green-600m px-2">
+                    <a href="" class="text-green-700 hover:text-blue-400">Agendar consulta</a>
+                </button>
+
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- banner section start here  -->
+    <section class="bg-green-100">
+        <div
+            class=" mt-6 container mx-auto w-3/4 flex flex-col items-center gap-4 md:flex-row md:justify-between  text-center md:text-justify">
+            <!-- banner text -->
+            <div class=" ">
+                <p class="text-green-500 text-xs">BOAS-VINDAS A DOCTORCARE 👋</p>
+                <h1 class="inline-block md:text-start text-4xl text-green-800 mt-2">Assistência médica simplificada para
+                    todos</h1>
+                <p class=" text-xs text-justify md:w-4/5">Os médicos da DoctorCare vão além dos sintomas para tratar a
+                    causa raiz de sua doença e proporcionar uma cura a longo prazo.</p>
+                <button class="  text-center mt-2.5">
+                    <a href="" class="border px-2 rounded-full  bg-green-900 text-xl text-white py-0.5">Agende sua
+                        consulta</a>
+                </button>
+            </div>
+            <!-- banner text -->
+
+            <!-- banner img -->
+            <div class="flex justify-center items-center mt-5">
+                <img src="images/hero-banner.png" alt="banner img">
+            </div>
+
+            <!-- banner img -->
+        </div>
+    </section>
+
+    <!-- banner section end here  -->
+
+
+    <!-- state section start here -->
+
+    <section>
+
+        <div class="container mx-auto w-3/4 bg-[#FFFAF1] flex  flex-col md:flex-row justify-around -mt-20 p-3 rounded-xl "
+            id="state">
+
+
+        </div>
+    </section>
+
+
+
+    <!-- card section start here -->
+
+    <section class="bg-[#F7F9F9]">
+        <div class=" ">
+
+            <div class="text-center p-5">
+                <p class="text-xs text-green-700">SERVIÇOS</p>
+                <h1 class="text-2xl text-sky-900">Como podemos ajudá-lo a se sentir melhor?</h1>
+            </div>
+
+
+            <div id="cardsection"
+                class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center container mx-auto w-3/4 mt-5 mb-3">
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- description section -->
+    <section class="bg-[#FFFAF1] p-5 flex flex-col md:flex-row">
+        <div class=" items-center flex-1/2">
+            <img src="images/about.png" alt="" srcset="" class="w-[25rem]">
+        </div>
+        <div class=" items-center flex-1/2 m-4">
+            <p class="text-xs text-green-600 text-center">SOBRE NÓS</p>
+            <h1 class="text-2xl text-black">Entenda quem somos e por que existimos</h1>
+            <h1 class="text-xl text-gray-500 mt-3">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
+                enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                officia consequat duis enim. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            </h1>
+        </div>
+
+    </section>
+
+    <section class=" flex justify-center items-center h-full">
+       <div class=" bg-[#FFFFFF] flex flex-col md:flex-row ">
+        <div class="flex justify-center items-center">
+            <div  class="text-black mt-10 md:mt-0 ">
+                <h1 class="font-bold text-xl">Entre em contato com a gente!</h1>
+                <p class="tewxt-xs">R. Amauri Souza, 346</p>
+                <p class="text-xs">contato@doctorcare.com</p>
+                <button class="bg-green-900 text-white rounded-full p-2 mt-2">Agende sua consulta</button>
+    
+            </div>
+        </div>
+
+        <div class="md:m-8 mt-10 md:mt-8">
+            <img src="images/contact.png" alt="" class="w-xs">
+        </div>
+       </div>
+    </section>
+
+    <!-- footer section start here -->
+     <section class="bg-green-600 p-3">
+        <nav>
+            <h1 class="text-center text-white font-bold text-xl">Devloped by SAGOR Ahmmed | <span id="date"></span>
+        </nav>
+     </section>
+
+
+
+    <!-- javascript added -->
+    <script src="./script.js">
+
+    </script>
+</body>
+
+</html>
